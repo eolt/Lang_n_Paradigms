@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in Ruby_assign.gemspec
+gemspec
+
+gem "bundler"
+gem "rake", "~> 12.0"
+gem "rspec", "~> 3.10"
+gem "rspec-core", "~> 3.10"
