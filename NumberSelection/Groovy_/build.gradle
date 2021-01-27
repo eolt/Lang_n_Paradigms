@@ -1,0 +1,39 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceSets.main.groovy.srcDirs = ['src']
+sourceSets.test.groovy.srcDirs = ['test']
+
+dependencies {
+    implementation('org.codehaus.groovy:groovy-all:3.0.5')
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.4.2')
+}
+
+test {
+    useJUnitPlatform()
+
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+run {
+  apply plugin: 'application'
+  mainClassName = 'main.groovy.GuessNumberApp'
+  standardInput = System.in
+}
+
+
+
+defaultTasks 'clean', 'test', "run"
+

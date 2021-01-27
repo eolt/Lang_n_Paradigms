@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="groovy.GuessNumberTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-14T05:57:22" hostname="Edgars-MBP" time="0.286">
+  <properties/>
+  <testcase name="return_true_on_correct_guess_on_any_attempt()" classname="groovy.GuessNumberTest" time="0.234"/>
+  <testcase name="play_lower_and_then_correct_value_on_second_attempt()" classname="groovy.GuessNumberTest" time="0.028"/>
+  <testcase name="return_false_on_incorrect_guess()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="guess_correct_on_first_attempt()" classname="groovy.GuessNumberTest" time="0.004"/>
+  <testcase name="play_lower_higher_and_then_correct_value_on_third_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="play_correct_value_on_first_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="return_true_for_correct_guess()" classname="groovy.GuessNumberTest" time="0.001"/>
+  <testcase name="play_higher_and_then_correct_value_on_second_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="guess_higher_on_first_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="guess_smaller_on_first_attempt()" classname="groovy.GuessNumberTest" time="0.001"/>
+  <testcase name="guess_correct_on_second_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <testcase name="play_higher_higher_and_then_correct_value_on_third_attempt()" classname="groovy.GuessNumberTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
