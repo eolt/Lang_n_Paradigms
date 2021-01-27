@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RecursiveRodCuttingTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-30T19:01:07" hostname="Edgars-MBP" time="0.006">
+  <properties/>
+  <testcase name="prices_list_length_one_two_three_four_five_Length_five_less_than_one_two_three_Test()" classname="RecursiveRodCuttingTest" time="0.002"/>
+  <testcase name="prices_list_empty_Test()" classname="RecursiveRodCuttingTest" time="0.001"/>
+  <testcase name="prices_list_length_one_two_Length_one_greater_than_two_Test()" classname="RecursiveRodCuttingTest" time="0.001"/>
+  <testcase name="prices_list_length_one_and_tree_Test()" classname="RecursiveRodCuttingTest" time="0.0"/>
+  <testcase name="prices_list_length_One_Test()" classname="RecursiveRodCuttingTest" time="0.0"/>
+  <testcase name="prices_list_length_one_and_two_Test()" classname="RecursiveRodCuttingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
